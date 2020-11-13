@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">MyNiceStart</string>
+    <string name="signup_text">have you got an account?</string>
+    <string name="slogan">for a better end</string>
 </resources>
