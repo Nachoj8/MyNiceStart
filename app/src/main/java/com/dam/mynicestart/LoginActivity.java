@@ -12,8 +12,6 @@ import com.google.android.material.textfield.TextInputLayout;
 
 public class LoginActivity extends AppCompatActivity {
 
-    protected TextView mSignUpTextview;
-    protected Button mLoginButton;
     protected TextInputLayout mPassword;
 
     @Override
@@ -23,31 +21,18 @@ public class LoginActivity extends AppCompatActivity {
         getSupportActionBar().hide();
 
         mPassword = (TextInputLayout)findViewById(R.id.password);
-//        mPassword.requestFocus();
 
+    }
 
-        mLoginButton = (Button)findViewById(R.id.button1);
-        mLoginButton.setOnClickListener(new View.OnClickListener(){
-            @Override
-            public void onClick(View v){
-                Intent intent = new Intent(LoginActivity.this, MainActivity.class);
-                intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
-                intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK);
-                startActivity(intent);
+    public void registro (View view) {
+        Intent intent = new Intent(LoginActivity.this, SignupActivity.class);
+        startActivity(intent);
+    }
 
-
-            }
-        });
-
-        mSignUpTextview = (TextView)findViewById(R.id.signup_text);
-        mSignUpTextview.setOnClickListener(new View.OnClickListener(){
-            @Override
-            public void onClick(View v){
-                Intent intent = new Intent(LoginActivity.this, SignupActivity.class);
-                startActivity(intent);
-
-
-            }
-        });
+    public void login (View view) {
+        Intent intent = new Intent(LoginActivity.this, MainActivity.class);
+        intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+        intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK);
+        startActivity(intent);
     }
 }

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android"
+    android:interpolator="@android:anim/accelerate_interpolator">
+
+    <!-- fade in
+    <alpha
+        android:duration="5000"
+        android:fromAlpha="0"
+        android:toAlpha="1.0" />
+    -->
+
+    <!-- fade out
+    <alpha
+        android:duration="5000"
+        android:fromAlpha="1.0"
+        android:interpolator="@android:anim/accelerate_interpolator"
+        android:toAlpha="0.0" />
+    -->
+
+    <!-- blink
+    <alpha
+        android:toAlpha="0.0"
+        android:fromAlpha="1.0"
+        android:interpolator="@android:anim/accelerate_interpolator"
+        android:duration="600"
+        android:repeatMode="reverse"
+        android:repeatCount="infinite"
+        />
+    -->
+
+    <!-- Zoom In
+    <scale
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:duration="1000"
+        android:fromXScale="1"
+        android:fromYScale="1"
+        android:pivotX="50%"
+        android:pivotY="50%"
+        android:toXScale="3"
+        android:toYScale="3" >
+
+         </scale>
+    -->
+
+    <!-- Zoom Out
+    <scale
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:duration="1000"
+        android:fromXScale="1.0"
+        android:fromYScale="1.0"
+        android:pivotX="50%"
+        android:pivotY="50%"
+        android:toXScale="0.5"
+        android:toYScale="0.5" >
+
+         </scale>
+    -->
+
+    <!-- Rotate
+    <rotate
+        android:fromDegrees="0"
+        android:toDegrees="360"
+        android:pivotX="50%"
+        android:pivotY="50%"
+        android:duration="1000"
+        android:repeatMode="restart"
+        android:repeatMode="infinite"
+        android:interpolator="@android:anim/cycle_interpolator" />
+    -->
+
+    <!-- Move
+    <translate
+        android:fromXDelta="0%p"
+        android:toXDelta="75%p"
+        android:duration="800" />
+    -->
+
+    <!-- Slide Up-->
+    <scale
+        android:duration="1000"
+        android:fromXScale="1.0"
+        android:fromYScale="1.0"
+        android:interpolator="@android:anim/linear_interpolator"
+        android:toXScale="1.0"
+        android:toYScale="0.0"
+         />
+
+
+    <!-- Slide Down
+    <scale
+        android:duration="500"
+        android:fromXScale="1"
+        android:fromYScale="0.0"
+        android:interpolator="@android:anim/linear_interpolator"
+        android:toXScale="1.0"
+        android:toYScale="1.0"
+         />
+    -->
+
+</set>

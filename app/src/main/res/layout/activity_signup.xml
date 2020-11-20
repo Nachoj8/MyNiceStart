@@ -11,10 +11,10 @@
         android:id="@+id/imageView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:scaleType="fitStart"
+        android:scaleType="centerCrop"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/hipman"
+        app:srcCompat="@drawable/imgregistro"
         />
 
     <ImageView
@@ -25,7 +25,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/ic_action_tienda"
+        app:srcCompat="@drawable/tabla"
         />
 
     <com.google.android.material.textfield.TextInputLayout
@@ -98,6 +98,7 @@
         app:layout_constraintTop_toBottomOf="@id/email"
         app:layout_constraintStart_toStartOf="@id/guideline1"
         app:layout_constraintEnd_toStartOf="@+id/cancelbutton"
+        android:layout_marginRight="5dp"
         >
     </com.google.android.material.button.MaterialButton>
 
@@ -110,6 +111,7 @@
         app:layout_constraintEnd_toEndOf="@id/guideline2"
         app:layout_constraintTop_toBottomOf="@id/email"
         app:layout_constraintStart_toEndOf="@+id/signupbutton"
+        android:onClick="cancelar"
         >
     </com.google.android.material.button.MaterialButton>
 

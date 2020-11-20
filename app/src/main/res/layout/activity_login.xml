@@ -11,10 +11,10 @@
         android:id="@+id/imageView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:scaleType="fitStart"
+        android:scaleType="centerCrop"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/girl"
+        app:srcCompat="@drawable/imglogin"
         />
 
     <ImageView
@@ -25,7 +25,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/ic_action_tienda"
+        app:srcCompat="@drawable/tabla"
          />
 
     <com.google.android.material.textfield.TextInputLayout
@@ -67,7 +67,8 @@
             android:background="@android:color/white"
             android:backgroundTint="@color/transparente"
             android:hint="password"
-            android:inputType="textPassword"/>
+            android:inputType="textPassword"
+            />
     </com.google.android.material.textfield.TextInputLayout>
 
     <com.google.android.material.button.MaterialButton
@@ -79,6 +80,9 @@
         app:layout_constraintTop_toBottomOf="@id/password"
         app:layout_constraintStart_toStartOf="@id/guideline1"
         app:layout_constraintEnd_toStartOf="@+id/button2"
+        android:layout_marginRight="5dp"
+        android:onClick="login"
+
         >
     </com.google.android.material.button.MaterialButton>
 
@@ -104,7 +108,8 @@
         android:textSize="18sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button2" />
+        app:layout_constraintTop_toBottomOf="@+id/button2"
+        android:onClick="registro"/>
 
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/guideline1"
