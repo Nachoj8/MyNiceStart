@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     tools:context=".SplashActivity">
 
-    <!-- No cargamos imagen porque lo hacemos con el glide en archivo java-->
+    <!-- No cargamos imagen porque lo hacemos con el glide en archivo java.-->
     <ImageView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
