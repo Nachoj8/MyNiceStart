@@ -17,6 +17,7 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"
         android:onClick="main2"
+        style="@style/ButtonStraight"
         />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
