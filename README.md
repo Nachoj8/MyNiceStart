@@ -4,9 +4,7 @@
 
 **italic**
 
-* elemento1
-  * subelemento1
 
-Splash | Login| Signup
---------|--------|--------
-![](img/splash.jpg) | ![](img/login.jpg) | ![](img/signup.jpg)
+Splash | Login| Signup| Main| Main2
+--------|--------|--------|--------|--------
+![](img/splash.jpg) | ![](img/login.jpg) | ![](img/signup.jpg) | ![](img/main.jpg) | ![](img/main2.jpg)
