@@ -87,6 +87,7 @@
         app:layout_constraintStart_toStartOf="@id/guideline1"
         app:layout_constraintEnd_toStartOf="@+id/button2"
         android:layout_marginRight="5dp"
+        android:backgroundTint="#EAA368"
         android:onClick="login"
 
         >
@@ -101,6 +102,7 @@
         app:layout_constraintEnd_toEndOf="@id/guideline2"
         app:layout_constraintTop_toBottomOf="@id/password"
         app:layout_constraintStart_toEndOf="@+id/button1"
+        android:backgroundTint="#EAA368"
         >
     </com.google.android.material.button.MaterialButton>
 

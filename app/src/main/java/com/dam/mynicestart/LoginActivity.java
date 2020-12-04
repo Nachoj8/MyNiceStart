@@ -10,6 +10,12 @@ import android.widget.TextView;
 
 import com.google.android.material.textfield.TextInputLayout;
 
+/**
+ * Ventana de login de usuario y creacion de cuenta
+ * @author Nacho
+ * @see SignupActivity
+ */
+
 public class LoginActivity extends AppCompatActivity {
 
     protected TextInputLayout mPassword;
