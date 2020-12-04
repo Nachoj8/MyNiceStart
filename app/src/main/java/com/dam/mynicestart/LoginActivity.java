@@ -3,21 +3,29 @@ package com.dam.mynicestart;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
+import android.graphics.drawable.ColorDrawable;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ImageView;
 import android.widget.TextView;
 
+import com.bumptech.glide.Glide;
+import com.bumptech.glide.load.engine.DiskCacheStrategy;
 import com.google.android.material.textfield.TextInputLayout;
 
 /**
- * Ventana de login de usuario y creacion de cuenta
+ * Ventana de login
+ * Tiene el icono de la app, dos Edit text para introducir usuario y contraseña.
+ * Dos Button, uno de login y otro de quest
+ * Y por ultimo un TextView donde pulsaremos para crear una cuenta
  * @author Nacho
  * @see SignupActivity
  */
 
 public class LoginActivity extends AppCompatActivity {
 
+    ImageView login;
     protected TextInputLayout mPassword;
 
     @Override
@@ -27,6 +35,16 @@ public class LoginActivity extends AppCompatActivity {
         getSupportActionBar().hide();
 
         mPassword = (TextInputLayout)findViewById(R.id.password);
+        login = findViewById(R.id.imgLogin);
+
+        Glide.with(this)
+                .load(R.drawable.imglogin)
+                .centerCrop()
+                //.transition(DrawableTransitionOptions.withCrossFade(500))
+                //.placeholder(new ColorDrawable(this.getResources().getColor(R.color.colorAccent)))
+                //.circleCrop()
+                //.diskCacheStrategy(DiskCacheStrategy.NONE)
+                .into(login);
 
     }
 

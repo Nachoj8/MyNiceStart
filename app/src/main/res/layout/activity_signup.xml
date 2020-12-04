@@ -8,13 +8,12 @@
     tools:context=".SignupActivity">
 
     <ImageView
-        android:id="@+id/imageView"
+        android:id="@+id/imgSignup"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:scaleType="centerCrop"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/imgregistro"
         />
 
     <View
@@ -102,7 +101,7 @@
         android:id="@+id/signupbutton"
         android:layout_width="0dp"
         android:layout_height="48dp"
-        android:text="EMAIL"
+        android:text="SIGN UP"
         android:textSize="16sp"
         app:layout_constraintTop_toBottomOf="@id/email"
         app:layout_constraintStart_toStartOf="@id/guideline1"
