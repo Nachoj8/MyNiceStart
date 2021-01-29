@@ -6,7 +6,7 @@ android {
 
     defaultConfig {
         applicationId "com.dam.mynicestart"
-        minSdkVersion 16
+        minSdkVersion 21
         targetSdkVersion 30
         versionCode 1
         versionName "1.0"
@@ -34,5 +34,10 @@ dependencies {
 
     implementation 'com.github.bumptech.glide:glide:4.9.0'
     annotationProcessor 'com.github.bumptech.glide:compiler:4.9.0'
+
+    implementation "androidx.swiperefreshlayout:swiperefreshlayout:1.1.0"
+
+    // Añadir en dependencies el EXPANDABLE CARD
+    implementation 'com.alespero:expandable-cardview:0.8'
 
 }

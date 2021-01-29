@@ -2,4 +2,5 @@
     <string name="app_name">Wave</string>
     <string name="signup_text">have you got an account?</string>
     <string name="slogan">Surfing life</string>
+    <string name="action_settings">Settings</string>
 </resources>
