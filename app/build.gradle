@@ -40,4 +40,10 @@ dependencies {
     // Añadir en dependencies el EXPANDABLE CARD
     implementation 'com.alespero:expandable-cardview:0.8'
 
+    //added
+
+    androidTestImplementation 'androidx.test:rules:1.2.0'
+
+    androidTestImplementation 'androidx.test:runner:1.2.0'
+
 }

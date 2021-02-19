@@ -3,4 +3,8 @@
     <string name="signup_text">have you got an account?</string>
     <string name="slogan">Surfing life</string>
     <string name="action_settings">Settings</string>
+
+    <string name="app_bar_menu_share">Share</string>
+    <string name="app_bar_menu_search">Search</string>
+    <string name="app_bar_menu_bookmark">Bookmark</string>
 </resources>
